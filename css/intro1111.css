@@ -1,0 +1,257 @@
+html {background: #000}
+body {
+    background: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+
+
+
+.banner-wrap img {display: block;width: 100%;margin: 0 auto; padding-top: 0px;}
+
+.text-img-wrap {text-align: center; margin: 20px 20px}
+.text-img-wrap span {margin-top: 10px; color: #ff6000; text-align: center; display: block}
+
+.text-img-wrap .br320 {display: inline-block}
+
+.content-wrap {background: #fff;width: 94%;margin: 0 auto; }
+.content-top,.content-bottom {width: 100%}
+.content-top img,.content-bottom img {width: 100%; display: block}
+
+.content-desc-wrap { text-align: left; margin-top: 10px;}
+.content-desc-wrap .left{display: inline-block; margin-left: 10px; width:60%;}
+.content-desc-wrap .detail{display: inline-block; text-align: right; text-decoration: underline; width: 30%; border: 0; margin-right: 10px;}
+
+.content-section {margin: 20px}
+.content-section-first {margin-top: 10px}
+.section-title {text-align: left;}
+.section-title-text {color: #297fff;font-size:1.2em;text-align: left;line-height: 2em;display: inline-block}
+.section-content {margin: 0px 0px;text-align: left}
+
+.reward-wrap img {width: 100%}
+
+.time-num {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.5em
+}
+
+.detail {
+    color: #0088cc;
+    cursor: pointer;
+    border-bottom: 1px solid #0088cc;
+}
+
+.iknow-btn {
+    display: inline-block;
+    padding: 5px 8px;
+    /*border: 1px solid #000;*/
+    border-radius: 5px
+}
+
+.login-btn-wrap {margin: 20px 0}
+.share-btn{
+    cursor: default;
+    /*-webkit-transition: all 0.5s;*/
+    /*transition: all 0.5s;*/
+    display: inline-block;
+    padding: 5px 0;
+    width: 60%;
+    border-radius: 10px;
+    background: url("../images/btn-bottom-unable.png") no-repeat bottom center #b6b6b6;
+    background-size: contain;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 0 0 1px #000;
+    overflow: hidden;
+}
+a {text-decoration: none}
+a:active {outline: none;text-decoration: none}
+
+.share-btn-wrap{
+    position: relative;
+}
+
+.share-btn-wrap img {
+        position: absolute;
+        top: 12px;
+        left: 250px;
+        width: 22px;
+}
+
+
+/*.login-btn,.share-btn-able,.iknow-btn {
+    outline: none;
+    display: inline-block;
+    padding: 5px 0;
+    width: 60%;
+    border-radius: 10px;
+    background: url("../images/btn-bottom.png") no-repeat bottom center #5ad534;
+    background-size: contain;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 0 0 1px #45bb20;
+    cursor: pointer;
+    overflow: hidden;
+    background-clip:padding-box;
+}*/
+.login-btn,.share-btn-able,.iknow-btn {
+    display: inline-block;
+    padding: 5px 0;
+    width: 60%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    overflow: hidden;
+    background: #5ad534;
+    border-radius: 8px;
+    background-clip: padding-box;
+    border: 2px solid #319d0f;
+
+    box-shadow: inset 0px 2px 0px 0px #81fa5b;
+    -webkit-box-shadow: inset 0px 2px 0px 0px #81fa5b;
+    -moz-box-shadow: inset 0px 2px 0px 0px #81fa5b;
+}
+.need-share-text {width: 60%;text-align: left;margin: 0 auto}
+
+
+
+.accept-wrap {margin: 10px 0 20px 0;}
+.accept {background: #fff;display: inline-block;vertical-align:middle}
+
+.share-icon-list {width: 60%;margin: 0 auto;text-align: center}
+.share-icon {display: inline-block;width: 20%}
+.share-icon img {width: 100%;display: block;}
+
+
+.modal .modal-inner {
+    width: 90%;
+    height: 100%;
+    max-width: 500px;
+    background: #fff;
+    background-color: rgba(255,255,255,0.9);
+    overflow-y:auto;
+    background-clip: padding-box;
+}
+.msg {position: relative}
+.close-icon {position: absolute;top: 10px;right: 10px;height: 30px;width:30px;overflow: hidden;}
+.close-icon img {width: 100%;display: block}
+.role-html{padding: 20px}
+.role-html h1{font-size: 1.2em;color: #ff7200;font-weight: 100;margin: 40px auto 20px 0}
+.role-html .article {text-indent: 0em}
+.role-html h3 {text-align: left;margin: 20px 0}
+
+.role-section {text-align: left;margin: 20px 0}
+.role-item {margin: 10px 0}
+
+.ready-text {width: 80%;margin: 20px auto;text-align: left;}
+.suggest-share-text {text-align: center;margin: 10px 0}
+.call-time-wrap {background: #edf8ff;display:inline-block;padding: 0 10px; margin: 30px auto;color: #ff7200;font-size: 1.4em;border-radius: 10px}
+
+/*.hire-wrap {text-align: center;margin-top: 20px;}*/
+.hire-wrap {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #e1f4fe;
+    padding: 10px;
+}
+.hire-scanner{
+    text-align: left;
+}
+.hire-pic{
+    display: inline-block;
+    /*margin: 20px 0 0 20px;*/
+    width: 100px;
+    vertical-align: top;
+}
+.hire-pic img{
+    width: 100%;
+}
+.hire-desc{
+    display: inline-block;
+    width: 50%;
+    margin-left: 20px;
+}
+.hire-text {color: #22afff;font-size: 1.2em;line-height: 30px;height:30px;display: inline-block;vertical-align: middle}
+.hire-btn {color:#2c6abe;display: inline-block;vertical-align: middle;margin-left: 10px;height: 30px;padding: 0 8px;border: 1px solid #2c6abe;border-radius: 5px;background-clip: padding-box;line-height: 30px;}
+
+/*.btn-bottom-wrap {*/
+    /*display: inline-block;*/
+    /*width: 60%;*/
+    /*line-height: 0;*/
+/*}*/
+/*.btn-bottom-wrap img {width: 100%;display: block}*/
+
+.bottom-btn-wrap{position:fixed; bottom:0;width:100%;background: rgba(255,255,255,0.8);padding: 15px 0;max-width:500px;}
+.loading-wrap{
+   position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.6;
+
+}
+.hide{
+    display: none;
+}
+
+.loading-wrap img{
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -15px 0 0 -15px;
+}
+
+.loading-wrap .text{
+    color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 35px 0 0 -30px;
+}
+
+.modal-wrap{
+    color: white;
+    line-height: 30px;
+    position: fixed;
+    left: 50%;
+    bottom: 20%;
+    right: 0;
+    width:200px;
+    height: 30px;
+    background: #000;
+    opacity: 0.6;
+    margin-left: -100px;
+}
+.code-inner{
+    display: inline-block;
+    border: none;
+    background: none;
+    width: 100px;
+    height: 20px;
+    padding: 0;
+    line-height: 20px;
+}
+#mySwipe{
+    overflow: hidden;
+}
+.swipe-wrap {position: relative;overflow: hidden}
+.swipe-wrap > div {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+@media screen and (max-width: 350px){
+    .text-img-wrap .br320 {display: block}
+}

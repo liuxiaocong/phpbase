@@ -1,0 +1,401 @@
+/*road map*/
+
+html {
+    background: #000;
+    height: 100%;
+}
+
+body {
+    background: #67c2f6;
+    max-width: 500px;
+    min-height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+}
+
+a {
+    outline: 0;
+}
+
+a:link {
+    outline: 0;
+}
+
+a {
+    text-decoration: none
+}
+
+a:active {
+    outline: none;
+    text-decoration: none
+}
+
+a:visited {
+    outline: 0;
+}
+
+a:hover {
+    outline: 0;
+}
+
+a:active {
+    outline: 0;
+}
+
+.modal .modal-inner {
+    width: 90%;
+    height: 100%;
+    max-width: 500px;
+    background: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
+    overflow-y: auto;
+    background-clip: padding-box;
+}
+
+.msg {
+    position: relative
+}
+
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+}
+
+.close-icon img {
+    width: 100%;
+    display: block
+}
+
+.role-html {
+    padding: 20px
+}
+
+.role-html h1 {
+    font-size: 1.2em;
+    color: #ff7200;
+    font-weight: 100;
+    margin: 40px auto 20px 0
+}
+
+.role-html .article {
+    text-indent: 0em
+}
+
+.role-html h3 {
+    text-align: left;
+    margin: 20px 0
+}
+
+.role-section {
+    text-align: left;
+    margin: 20px 0
+}
+
+.role-item {
+    margin: 5px 0
+}
+
+.btn-wrap {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 0;
+    width: 50%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    overflow: hidden;
+    background: #5ad534;
+    border-radius: 8px;
+    background-clip: padding-box;
+    border: 2px solid #319d0f;
+    box-shadow: inset 0px 2px 0px 0px #81fa5b;
+    -webkit-box-shadow: inset 0px 2px 0px 0px #81fa5b;
+    -moz-box-shadow: inset 0px 2px 0px 0px #81fa5b;
+}
+
+ul {
+    margin: 0 0px
+}
+
+.circular {
+    width: 50px;
+    border: 0;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+}
+
+/*content*/
+.content-wrap {
+    background: #fff;
+    width: 94%;
+    margin: 0 auto;
+}
+
+.content-top, .content-bottom {
+    width: 100%
+}
+
+.content-top img, .content-bottom img {
+    width: 100%;
+    display: block
+}
+
+.content-desc-wrap {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.content-desc-wrap .left {
+    display: inline-block;
+    margin-left: 10px;
+    width: 60%;
+}
+
+.content-desc-wrap .detail {
+    display: inline-block;
+    text-align: right;
+    text-decoration: underline;
+    width: 30%;
+    border: 0;
+    margin-right: 10px;
+}
+
+.content-section {
+    margin: 20px
+}
+
+.content-section-first {
+    margin-top: 10px
+}
+
+.section-title {
+    text-align: left;
+}
+
+.section-title-text {
+    color: #ff9000;
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 2em;
+    border-bottom: 1px solid #ff9000;
+    display: inline-block
+}
+
+.section-content {
+    margin: 10px 15px;
+    text-align: left
+}
+
+.profile {
+    background: #67C2F6;
+    margin: 0 auto;
+    background-clip: padding-box;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.profile hr {
+    border-top: 1px dotted black;
+}
+
+.profile-icon {
+    display: inline-block;
+}
+
+.profile-name {
+    margin-left: 20px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.profile-name .intro {
+    display: block;
+    font-size: 12pt;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.profile-name .name {
+    font-size: 10pt;
+    color: #FFFA77;
+}
+
+.profile-name .score {
+    display: block;
+    font-size: 9pt;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.profile-login {
+    margin: 0 auto;
+    line-height: 20px;
+    width: auto;
+    font-size: 9pt;
+    text-align: center;
+    padding: 0 10px;
+    float: right;
+}
+
+.profile hr {
+    width: 100%;
+    border: 1px dotted #ffffff;
+}
+
+.invitationCode-wrap {
+    /*background: #67c2f6;*/
+    /*background: rgba(255, 255, 255, 0.9);*/
+    margin: 0 auto;
+    padding: 10px 0;
+    background-clip: padding-box;
+    text-align: center;
+    padding: 10px 20px;
+    overflow: hidden;
+    transition: all 1s;
+    border: 2px dotted blue;
+    border-radius: 10px;
+    background-clip: border-box;
+    margin: 15px;
+}
+
+.invitationCode {
+}
+
+.invitationCode-reminder {
+    padding: 10px;
+    text-align: left;
+}
+
+.invitationCode span {
+    margin: 10px;
+}
+
+.invitationCode input {
+    width: auto;
+    background: #f3f3f3;
+    border: 1px solid #999;
+    padding: 10px 0;
+    border-radius: 5px;
+    padding-left: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.invitationCode-wrap .btn {
+    display: inline-block;
+    width: auto;
+    font-size: 12pt;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.modal-wrap {
+    color: white;
+    line-height: 30px;
+    position: fixed;
+    left: 50%;
+    bottom: 20%;
+    right: 0;
+    width: 200px;
+    height: 30px;
+    background: #000;
+    opacity: 0.6;
+    margin-left: -100px;
+}
+
+.hide {
+    display: none;
+}
+
+.invitation-error {
+    padding: 0 10px
+}
+
+.hire-wrap {
+    text-align: center;
+    margin-bottom: 100px;
+    background-color: #e1f4fe;
+    padding: 10px;
+}
+
+.hire-scanner {
+    text-align: left;
+}
+
+.hire-pic {
+    display: inline-block;
+    /*margin: 20px 0 0 20px;*/
+    width: 100px;
+    vertical-align: top;
+}
+
+.hire-pic img {
+    width: 100%;
+}
+
+.hire-desc {
+    display: inline-block;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.hire-text {
+    color: #22afff;
+    font-size: 1.2em;
+    line-height: 30px;
+    height: 30px;
+    /*text-shadow: 0 0 1px #3375c5;*/
+    display: inline-block;
+    vertical-align: middle
+}
+
+.hire-btn {
+    color: #2c6abe;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    height: 30px;
+    padding: 0 8px;
+    /*background: #ffff00;*/
+    border: 1px solid #2c6abe;
+    border-radius: 5px;
+    background-clip: padding-box;
+    line-height: 30px;
+}
+
+.bottom-countdown-wrap {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #c4e9fc;
+    padding: 15px 0;
+    max-width: 500px;
+
+}
+
+.call-time-wrap {
+    display: inline-block;
+    padding: 0 10px;
+    margin: 15px auto;
+    color: #ff7200;
+    font-size: 1.4em;
+    border-radius: 10px
+}
