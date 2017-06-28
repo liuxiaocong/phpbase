@@ -18,6 +18,6 @@ if(file_exists(__DIR__.'/.local')){
 $config = (object) (require_once $FRAMEWORK_PATH . '/config.php');
 $config->src = $APP_PATH;
 require_once $FRAMEWORK_PATH . '/Application.php';
-require_once $FRAMEWORK_PATH. '/ez_sql_core.php';
-require_once $FRAMEWORK_PATH. '/ez_sql_mysql.php';
+//require_once $FRAMEWORK_PATH. '/ez_sql_core.php';
+//require_once $FRAMEWORK_PATH. '/ez_sql_mysql.php';
 Application::getInstance($config)->start();
